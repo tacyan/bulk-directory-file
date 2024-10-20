@@ -1,15 +1,3 @@
-# bulk-directory-file
-一括でフォルダとファイル名を作成してくれるスクリプトです。
-
-## 使い方
-
-1. project_structure.txtを作成します。
-
-下記のようなフォーマットで作成します。
-AIが作成したフォルダ構造をベースにしています。
-
-project_structure.txt
-```
 developer-flet/
 ├─ app.py
 ├─ config/
@@ -43,12 +31,3 @@ developer-flet/
 │  ├─ insight_analysis.py
 ├─ requirements.txt
 ├─ README.md
-```
-
-2. 下記のコマンドを実行します。
-
-実行したディレクトリにフォルダ構造が作成されます。
-
-```
-python create_project_structure.py project_structure.txt
-```
